@@ -1,0 +1,68 @@
+
+header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+  }
+  main, footer {
+    position: absolute;
+    top: 500px;
+  }
+  #header-img {
+    width: 100%;
+  
+  }
+  
+  #schedule-img {
+    width: 100%;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    right: 10px;
+    color: #fff;
+  
+  #coaches {
+   display: flex;
+  }  
+    
+  
+  }
+  header li {
+    display: inline;
+    justify-content: space-between;
+    
+  }
+  .roster {
+    display: flex;
+    justify-content: space-between;
+    flex: flexwrap;
+  }
+  
+  .player {
+    
+  }
+  /* Tablets */
+  @media screen and (max-width: 992px) {
+    * {
+      position: relative;
+      
+    }
+   
+  }
+  
+  /* Large smartphones  
+  @media screen and (max-width: 768px) {
+    * {
+      position: relative;
+    }
+  }
+  */
+  /* Small smartphones  
+  @media screen and (max-width: 576px) {
+    * {
+      position: relative;
+    }
+  }
+  */
